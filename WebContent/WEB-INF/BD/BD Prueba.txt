@@ -1,0 +1,13 @@
+create database prueba;
+use prueba;
+
+CREATE TABLE usuario 
+(
+usuario varchar(250),
+clave varchar(250)
+);
+
+INSERT INTO usuario (usuario, clave) VALUES ('hugo','12345');
+
+select * from usuario
+
