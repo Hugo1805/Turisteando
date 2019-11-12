@@ -11,7 +11,7 @@ public class UtilBDSQL {
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			//cn=DriverManager.getConnection("jdbc:sqlserver://localhost:1434;databaseName=Turisteando","sa","sql");
-			cn=DriverManager.getConnection("jdbc:sqlserver://turisteandodb.database.windows.net:1433;database=Turistenado;user=administrador@turisteandodb;password=Turisteandobd01;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;");
+			cn=DriverManager.getConnection("");
 		} catch (Exception e) {
 			cn=null;
 		}
